@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name='lambdata-b-whitman',
+    name='lambdata_b-whitman',
     version="0.0.1",
     author='b-whitman',
     description='Collection of data science helper functions',

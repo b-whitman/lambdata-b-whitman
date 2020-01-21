@@ -4,10 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+twine = "*"
+lambdata = "*"
 
 [packages]
 numpy = "*"
 pandas = "*"
+lambdata = "*"
+lambdata-b-whitman = "*"
 
 [requires]
 python_version = "3.8"
