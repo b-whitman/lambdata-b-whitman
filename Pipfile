@@ -10,8 +10,8 @@ lambdata = "*"
 [packages]
 numpy = "*"
 pandas = "*"
-lambdata = "*"
-lambdata-b-whitman = "*"
+scipy-stats = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.8"

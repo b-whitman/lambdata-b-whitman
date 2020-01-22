@@ -16,4 +16,5 @@ import pandas as pd
 import numpy as np
 
 def check_nulls(df):
-    return 0
+    nulls = df.isna().sum()
+    return nulls
